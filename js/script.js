@@ -51,7 +51,7 @@ function askUser() {
         }
     }
 
-    if(guessNumbers == totNumbers) {
+    if(sum == totNumbers) {
         alert('Hai indovinato tutti i numeri e sono: ' + guessNumbers);
 
     }else {
