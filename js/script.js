@@ -24,7 +24,7 @@ function numeroCasuale(max) {
 alert('I numeri da memorizzare sono:' + numbers);
 
 // creo un timer di 30 secondi 
-var milliseconds = 3000;
+var milliseconds = 30000;
 var userNumbers = [];
 
 setTimeout(askUser, milliseconds);
