@@ -44,10 +44,10 @@ function askUser() {
     var guessNumbers = [];
     var sum = 0;
     for( i = 0 ; i < totNumbers ; i++) {
-        if(numbers.includes(userNumbers) == true) {
-            guessNumbers.push(numbers);
+        if(numbers.includes(userNumbers[i]) == true) {
+            guessNumbers.push(numbers[i]);
             sum++;
-            console.log(guessNumbers);
+            // console.log(guessNumbers);
         }
     }
 
